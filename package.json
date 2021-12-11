@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-goit-hw-01",
+  "version": "1.0.0",
+  "description": "nodejs-goit-hw-01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veles87/nodejs-goit-hw-01git"
+  },
+  "keywords": [],
+  "author": "VELES",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veles87/nodejs-goit-hw-01/issues"
+  },
+  "homepage": "https://github.com/veles87/nodejs-goit-hw-01#nodejs-goit-hw-01",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "commander": "^7.2.0",
+    "node": "^17.2.0",
+    "yargs": "^17.3.0"
+  }
+}
