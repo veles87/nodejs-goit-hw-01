@@ -58,29 +58,29 @@ function addContact(name, email, phone) {
 
 ```js
 // index.js
-const argv = require('yargs').argv;
+const argv = require("yargs").argv;
 
 // TODO: рефакторить
 function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
-    case 'list':
+    case "list":
       // ...
       break;
 
-    case 'get':
+    case "get":
       // ... id
       break;
 
-    case 'add':
+    case "add":
       // ... name email phone
       break;
 
-    case 'remove':
+    case "remove":
       // ... id
       break;
 
     default:
-      console.warn('\x1B[31m Unknown action type!');
+      console.warn("\x1B[31m Unknown action type!");
   }
 }
 
@@ -90,14 +90,14 @@ invokeAction(argv);
 Так же, вы можете использовать модуль [commander](https://www.npmjs.com/package/commander) для парсинга аргументов командной строки. Это более популярная альтернатива модуля `yargs`
 
 ```js
-const { Command } = require('commander');
+const { Command } = require("commander");
 const program = new Command();
 program
-  .option('-a, --action <type>', 'choose action')
-  .option('-i, --id <type>', 'user id')
-  .option('-n, --name <type>', 'user name')
-  .option('-e, --email <type>', 'user email')
-  .option('-p, --phone <type>', 'user phone');
+  .option("-a, --action <type>", "choose action")
+  .option("-i, --id <type>", "user id")
+  .option("-n, --name <type>", "user name")
+  .option("-e, --email <type>", "user email")
+  .option("-p, --phone <type>", "user phone");
 
 program.parse(process.argv);
 
@@ -106,24 +106,24 @@ const argv = program.opts();
 // TODO: рефакторить
 function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
-    case 'list':
+    case "list":
       // ...
       break;
 
-    case 'get':
+    case "get":
       // ... id
       break;
 
-    case 'add':
+    case "add":
       // ... name email phone
       break;
 
-    case 'remove':
+    case "remove":
       // ... id
       break;
 
     default:
-      console.warn('\x1B[31m Unknown action type!');
+      console.warn("\x1B[31m Unknown action type!");
   }
 }
 
@@ -162,3 +162,10 @@ node index.js --action remove --id=3
 - Название функции или метода содержит глагол
 - В коде нет закомментированных участков кода
 - Проект корректно работает в актуальной LTS-версии Node
+
+# Ссылки на скрины
+
+https://ibb.co/qkhVfnJ
+https://ibb.co/w71HmMf
+https://ibb.co/G3MR8MY
+https://ibb.co/Sx8C59L
