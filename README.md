@@ -165,7 +165,9 @@ node index.js --action remove --id=3
 
 # Ссылки на скрины
 
-https://ibb.co/qkhVfnJ
-https://ibb.co/w71HmMf
-https://ibb.co/G3MR8MY
-https://ibb.co/Sx8C59L
+https://i.ibb.co/hDrwjMY/2021-12-12-20-53-49.png
+https://i.ibb.co/Lrfw7n3/2021-12-12-20-53-20.png
+https://i.ibb.co/NnNKJND/2021-12-12-20-52-59.png
+https://i.ibb.co/n0vJ65W/2021-12-12-20-52-39.png
+
+THE END
